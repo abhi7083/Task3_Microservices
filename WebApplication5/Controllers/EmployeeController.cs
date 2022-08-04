@@ -7,8 +7,7 @@ using WebApplication5.Models;
 
 namespace WebApplication5.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+   
     public class EmployeeController : Controller
     {
         IEmployeeRepo _repository;
